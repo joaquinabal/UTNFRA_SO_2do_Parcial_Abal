@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Asigno los parámetros a variables
+USUARIO_ORIGEN=$1
+RUTA_LISTA=$2
+
+# Verifico que el usuario origen existe
+if ! id "$USUARIO_ORIGEN" &>/dev/null; then
+  echo "El usuario $USUARIO_ORIGEN no existe."
+  exit 2
+fi
+
+# Obtengo la contraseña del usuario origen
+PASS_ORIGEN=$(getent shadow "$USUARIO_ORIGEN" | cut -d: -f2)
+
+# Verifico si la contraseña fue encontrada
+if [ -z "$PASS_ORIGEN" ]; then
+  echo "No se pudo obtener la contraseña de $USUARIO_ORIGEN."
+  exit 3
+fi
+
+# Verifico si el archivo de lista de usuarios existe
+if [ ! -f "$RUTA_LISTA" ]; then
+  echo "El archivo de lista de usuarios no existe: $RUTA_LISTA"
+  exit 4
+fi
+
+# Leo el archivo de lista de usuarios
+while IFS=, read -r NOMBRE_USUARIO GRUPO_PRIMARIO DIRECTORIO_HOME; do
+  # Ignoro la primera línea (encabezados)
+  if [ "$NOMBRE_USUARIO" != "Nombre_Usuario" ]; then
+    # Verifico si el grupo existe, si no, crearlo
+    if ! getent group "$GRUPO_PRIMARIO" &>/dev/null; then
+      echo "Creando el grupo: $GRUPO_PRIMARIO"
+      groupadd "$GRUPO_PRIMARIO"
+    fi
+
+    # Verifico si el usuario ya existe
+    if ! id "$NOMBRE_USUARIO" &>/dev/null; then
+      # Creo el usuario con su grupo primario y directorio home
+      echo "Creando el usuario: $NOMBRE_USUARIO"
+      useradd -m -g "$GRUPO_PRIMARIO" -d "$DIRECTORIO_HOME" "$NOMBRE_USUARIO"
+
+      # Establezco la contraseña igual que la del usuario origen
+      echo "$NOMBRE_USUARIO:$PASS_ORIGEN" | chpasswd
+
+      echo "Usuario $NOMBRE_USUARIO creado exitosamente con contraseña asignada."
+    else
+      echo "El usuario $NOMBRE_USUARIO ya existe, se omite."
+    fi
+  fi
+done < "$RUTA_LISTA"
+
+echo "Proceso completado."
+
