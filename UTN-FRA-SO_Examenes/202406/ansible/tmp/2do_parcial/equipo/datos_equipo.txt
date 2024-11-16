@@ -1,0 +1,3 @@
+IP: 192.168.56.3
+Distribución: Ubuntu
+Cantidad de Cores: 2
