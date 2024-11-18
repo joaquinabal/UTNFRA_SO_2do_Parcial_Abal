@@ -1,0 +1,369 @@
+cd
+cd UTN-FRA_SO_Examenes/
+ls -l
+cd
+ls -l
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd RTA_Examen_20241114/
+sudo bash Punto_B.sh
+sudo bash Punto_C.sh
+cd
+cd UTN
+cd UTN-FRA_SO_Examenes/
+cd 202406
+ls -l
+cd docker
+ls -l
+cd ..
+cd bash_script/
+ls -l
+cat Lista_Usuarios.txt 
+cd ..
+cd docker
+ls -l
+touch dockerfile
+vim dockerfile
+touch run.sh
+touch make-build-push.sh
+vim run.sh
+cat run.sh
+vim make-build-push.sh
+cd
+cd /usr/local/bin
+mkdir joaquinabal
+sudo mkdir joaquinabal
+cd
+cd /usr/local/bin/joaquinabal
+touch AbalUser-Groups.sh
+sudo touch AbalUser-Groups.sh
+vim AbalUser-Groups.sh 
+sudo vin AbalUser-Groups.sh 
+sudo vim AbalUser-Groups.sh 
+cd
+cd UTN-FRA_SO_Examenes/
+cd
+ls -l
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd RTA_Examen_20241114/
+sudo bash Punto_B.sh
+sudo bash /usr/local/bin/AbalUser-Groups.sh vagrant  ~/UTN-FRA_SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+sudo vim Punto_B.sh
+sudo bash /usr/local/bin/AbalUser-Groups.sh vagrant  ~/UTN-FRA_SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+sudo bash /usr/local/bin/joaquinabal/AbalUser-Groups.sh vagrant  ~/UTN-FRA_SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+cd
+UTNFRA_SO_2do_Parcial_Abal/
+cd UTNFRA_SO_2do_Parcial_Abal/
+LS -L
+ls -l
+cd UTN-FRA-SO_Examenes/
+cd 202406
+cd bash_script/
+vim Lista_Usuarios.txt 
+cd
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd UTN-FRA-SO_Examenes/
+c d..
+cd ..
+cd RTA_Examen_20241114/
+vim Punto_B.sh
+cat Punto_B.sh
+vim Punto_B.sh
+sudo bash /usr/local/bin/joaquinabal/AbalUser-Groups.sh vagrant  ~/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+cd
+cd /usr/local/bin/joaquinabal
+ls -l
+vim AbalUser-Groups.sh 
+cd  /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script
+cd
+cd UTN-FRA_SO_Examenes/
+cd ..
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd UTN-FRA-SO_Examenes/
+cd 202406
+cd bash_script
+ls -l
+awk
+pwd
+cd ~/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA-SO_Examenes/202406/bash_script
+cd
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd UTN-FRA-SO_Examenes/
+CD --
+cd ..
+cd RTA_Examen_20241114/
+vim Punto_B.sh
+sudo bash /usr/local/bin/joaquinabal/AbalUser-Groups.sh vagrant  /UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+sudo bash /usr/local/bin/joaquinabal/AbalUser-Groups.sh joaquinabal  /UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+vim Punto_B.sh
+sudo bash /usr/local/bin/joaquinabal/AbalUser-Groups.sh joaquinabal  ~/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+cd /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script
+cd /UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script
+cd ~TNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script
+cd ~/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script
+cd
+cd ~/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA_SO_Examenes/202406/bash_script
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd UTN-FRA-SO_Examenes/
+cd 202406
+cd bash_script
+ls -l
+sudo chmod 777 Lista_Usuarios.txt 
+pwd
+cd
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd RTA_Examen_20241114/
+vim Punto_B.sh
+sudo bash Punto_B.sh
+sudo bash /usr/local/bin/joaquinabal/AbalUser-Groups.sh joaquinabal /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA-SO_Examenes/202406/bash_script/Lista_Usuarios.txt
+cd
+cd UTNFRA_SO_2do_Parcial_Abal/
+sudo bash ./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+./UTN-FRA-SO_Examenes/202406/script_Precondicion.sh
+source  ~/.bashrc
+history -a
+cd
+cd UTNFRA_SO_2do_Parcial_Abal/
+git add .
+git commit -m "Nueva VM y nuevo Usuario"
+git config --global user.email "joabal97@gmail.com"
+git config --global username "Joaquin Abal"
+git config --global user.name "Joaquin Abal"
+git commit -m "Nueva VM y nuevo Usuario"
+git push origin main
+cd
+pwd
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd RTA_Examen_20241114/
+cat Punto_C.sh
+sudo bash Punto_C.sh
+cd /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/make-build-push.sh
+vim Punto_C.sh
+sudo bash Punto_C.sh
+cat Punto_B.sh
+sudo bash Punto_B.sh
+vim Punto_C.sh
+sudo bash Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/make-build-push.sh
+sudo bash Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/make-build-push.sh
+sudo bash Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/make-build-push.sh
+sudo bash Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/RUN.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/run.sh
+vim Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/run.sh
+docker images
+sudo docker images
+docker
+apt install docker
+sudo apt install docker
+docker images
+sudo lsof -i :8080
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/run.sh
+sudo bash /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/run.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/run.sh
+sudo usermod -aG docker $USER
+cd
+sudo apt install docker
+cd UTNFRA_SO_2do_Parcial_Abal/RTA_Examen_20241114/
+sudo bash Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/make-build-push.sh
+sudo bash Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/make-build-push.sh
+sudo bash Punto_C.sh
+vim /home/joaquinabal/UTN-FRA_SO_Examenes/202406/docker/make-build-push.sh
+docker --version
+sudo systemctl enable docker
+sudo systemctl start docker
+which docker
+export PATH=$PATH:/usr/bin
+sudo bash Punto_C.sh
+which docker
+sudo apt install
+sudo apt update
+apt install docker
+sudo apt install docker
+sudo systemctl status docker
+sudo systemctl start docker
+sudo systemctl enable docker
+echo 'export PATH=$PATH:/usr/bin' >> ~/.bashrc
+source ~/.bashrc
+which docker
+docker --version
+snap install docker
+sudo snap install docker
+docker --version
+sudo bash Punto_C.sh
+curl http://localhost:8080
+ssh-keygen -t ed25519 -C "joabal97@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+git clone ○ $HOME/.bash_history (Previa ejecución del comando “history -a”)
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone git@github.com:joaquinabal/UTNFRA_SO_2do_Parcial_Abal.git
+ls -l
+cd UTN-FRA_SO_Examenes/
+ls -l
+cd 
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd RTA_Examen_20241114/
+cat Punto_B.sh
+cat Punto_C.sh
+sudo bash Punto_B.sh
+vim Punto_B.sh
+vim Punto_C.sh
+sudo bash Punto_B.sh
+bash Punto_B.sh
+bash Punto_C.sh
+cd ..
+git add .
+git commit -m "Correccion Script B y C sobre nuevo usuario y VM"
+git push origin main
+fdisk -l
+sudo fdisk -l
+sudo fdisk /dev/sdf
+cd RTA_Examen_20241114/
+sudo vim Punto_A.sh
+sudo bash Punto_A.sh
+lsblk
+cd ..
+git add .
+git commit -m "Script A hecho"
+git push origin main
+cd RTA_Examen_20241114/
+vim Punto_A.sh
+cd ..
+git add .
+git commit -m "correcion Punto_A.sh"
+git push origin main
+sudo systemctl restart docker
+sudo systemctl status docker
+which docker
+cat apt
+sudo systemctl enable docker
+cd
+cat /home/joaquinabal/.ssh/id_ed22519.pub
+cd .ssh
+ls -l
+pwd
+cd
+cat /home/joaquinabal/.ssh/id_ed22519.pub >> /home/joaquinabal/.ssh/authorized_keys
+cat /home/joaquinabal/.ssh/id_ed25519.pub >> /home/joaquinabal/.ssh/authorized_keys
+ssh joaquinabal@192.168.56.2
+w
+exit
+ssh joaquinabal@192.168.56.3
+ls -l
+cd UTN_SO
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd UTN-FRA-SO_Examenes/
+cd 202406
+cd ansible
+ls -l
+ls roles
+cd roles
+ls -l
+cd 2do_parcial
+ls -l
+cd ..
+cd 2do_parcial
+cd roles
+cd tasks
+cd 2do_parcial/
+cd tasks
+ls -l
+cat main.yml
+vim main.yml
+cd ..
+ls -l
+cd roles
+cd 2do_parcial/
+cat defaults
+ls defaults
+mkdir templates
+touch datos_alumno.txt.j2
+touch datos_equipo.txt.j2
+vim datos_alumno.txt.j2
+cat ~/etc/os-release
+cat /etc/os-release
+echo /etc/os-release | grip NAME=
+echo /etc/os-release | grep NAME=
+vim datos_equipo.txt.j2 
+cd tasks
+ls -l
+vim main.yml
+cd ..
+ls -l
+cat playbook.yml
+cd ..
+cd RTA_Examen_20241114/
+ls -l
+vim Punto_D.sh
+cat Punto_C,sh
+cat Punto_C.sh
+vim Punto_D.sh
+sudo bash Punto_D.sh
+cat /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA-SO_Examenes/202406/ansible
+cd /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA-SO_Examenes/202406/ansible
+ls -l
+cd
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd RTA_Examen_20241114/
+vim Punto_D.sh
+sudo bash Punto_D.sh
+cd ..
+cd UTN-FRA-SO_Examenes/
+cd 202406
+cd ansible
+ls -l
+cd ..
+ls -l
+cd ansible
+ls -l
+cd roles
+ls -l
+cd 2do_parcial
+ls -l
+ls tasks
+cd tasks
+vim main.yml
+cd
+cd UTNFRA_SO_2do_Parcial_Abal/
+cd RTA_Examen_20241114/
+sudo bash Punto_D.sh
+cd /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA-SO_Examenes/202406/ansible/
+ls -l
+cd tmp
+ls -l
+cd 2do_parcial/
+ls -l
+cd alumno/
+ls -l
+cat datos_alumno.txt 
+cd ..
+ls -l
+add .
+git add .
+git commit -m "Punto D"
+git push origin main
+cd RTA_Examen_20241114/
+vim Punto_C.sh
+vim Punto_B.sh
+vim Punto_C.sh
+vim /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA-SO_Examenes/202406/docker/make-build-push.sh
+vim Punto_A.sh
+docker ps
+sudo docker ps
+sudo bash /home/joaquinabal/UTNFRA_SO_2do_Parcial_Abal/UTN-FRA-SO_Examenes/202406/docker/run.sh
+sudo docker ps
+sudo docker logs focused_buck
+curl http://localhost:8080
+cat Punto_B.sh
+cat Punto_C.sh
+/usr/local/bin/joaquinabal/AbalUser-Groups.sh
+cat /usr/local/bin/joaquinabal/AbalUser-Groups.sh
+vim /usr/local/bin/joaquinabal/AbalUser-Groups.sh
+history -a
+cd ..
+cp /home/joaquinabal/.bash_history >> history_2.txt
+cp --help
